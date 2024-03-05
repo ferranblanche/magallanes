@@ -6,8 +6,8 @@
         "apis/hotels"
     ],
     "scripts": {
-        "clean": "npm run clean --workspaces",
-        "build": "npm run build --workspaces",
+        "clean": "rm -rf node_modules && npm run clean --workspaces",
+        "build": "npm install && npm run build --workspaces",
         "start": "npm run start --workspaces"
     },
     "devDependencies": {
