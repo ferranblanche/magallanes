@@ -6,6 +6,7 @@
         "apis/hotels"
     ],
     "scripts": {
+        "clean": "npm run clean --workspaces",
         "build": "npm run build --workspaces",
         "start": "npm run start --workspaces"
     },
