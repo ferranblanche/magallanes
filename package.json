@@ -2,8 +2,8 @@
   "name": "magallanes",
   "version": "1.0.0",
   "workspaces": [
-    "apis/flights",
-    "apis/hotels"
+    "apis/*",
+    "apps/*"
   ],
   "scripts": {
     "clean": "rm -rf node_modules && npm run clean --workspaces",
