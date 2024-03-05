@@ -6,9 +6,14 @@
         "apis/hotels"
     ],
     "scripts": {
+        "build": "npm run build --workspaces",
         "start": "npm run start --workspaces"
     },
-    "dependencies": {
-        "express": "^4.18.3"
+    "devDependencies": {
+        "@types/express": "^4.17.21",
+        "@types/node": "^20.11.24",
+        "express": "^4.18.3",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
     }
 }

@@ -1,7 +1,10 @@
 {
-  "name": "magallanes-api-hotels",
+  "name": "@magallanes/api-hotels",
   "version": "0.0.1",
   "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -rf ./dist",
+    "compile": "tsc -p tsconfig.json",
     "start": "node dist/index.js"
   }
 }
